@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7J2lVg7Pam9VjKA5oCyn8xm/OOAryL1xaZ0ZfqlR/vIoOmJimut+NMBjEeGUYegPr1i88yuZbiEiVlbyPCFCNw==",
+  "dgSpecHash": "F+ZJYJCea0XrpTTzKSp2Ttw25MXtCfe8XtIm0yseXWqADhceaZhxwrvVbLYKDAeVtgqVzofVI0anVepRm4nWFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\source\\repos\\SignalChatNetCore7.0\\SignalChatNetCore7.0\\SignalChatNetCore7.0.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\NetCore7.0MvcChatApplication\\SignalChatNetCore7.0\\SignalChatNetCore7.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\7.0.11\\microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.11.nupkg.sha512",

@@ -4,7 +4,7 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    
+    <button type="button" id="btnSendMessage">Mesaj Gönder</button>
 </div>
 @section Scripts{
 <script>
@@ -25,5 +25,13 @@
         await start();
     });
     start();
+    $('#btnSendMessage').click(function() {
+        try{
+            connection.invoke("SendMessage","Ali Can","merhaba");
+        }
+        catch(err){
+            console.error(err);
+        }
+    });
 </script>
 }
