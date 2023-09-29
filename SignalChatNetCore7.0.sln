@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalChatNetCore7.0", "SignalChatNetCore7.0\SignalChatNetCore7.0.csproj", "{7625A6E4-B353-4056-92D5-FA1C9AAB670E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7625A6E4-B353-4056-92D5-FA1C9AAB670E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7625A6E4-B353-4056-92D5-FA1C9AAB670E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7625A6E4-B353-4056-92D5-FA1C9AAB670E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7625A6E4-B353-4056-92D5-FA1C9AAB670E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66FF0AE8-FE3D-4EA5-92A0-0C37FAC11C12}
+	EndGlobalSection
+EndGlobal

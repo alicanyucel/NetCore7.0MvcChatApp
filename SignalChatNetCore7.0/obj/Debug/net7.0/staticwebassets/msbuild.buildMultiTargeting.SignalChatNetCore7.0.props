@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SignalChatNetCore7.0.props" />
+</Project>
