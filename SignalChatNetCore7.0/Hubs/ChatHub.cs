@@ -6,7 +6,7 @@ namespace SignalChatNetCore7._0.Hubs
         public async Task SendMessage(string user,string message)
         {
             // clientları dinle
-            await Clients.All.SendAsync("mesaj alındı",user,message);
+            await Clients.All.SendAsync("ReceiveMessage",user,message);
         }
     }
 }

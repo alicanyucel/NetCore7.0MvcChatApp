@@ -34,5 +34,10 @@
             console.error(err);
         }
     });
+    $().ready(function(){
+       connection.on("ReceiveMessage",(user,message)=>{
+           console.log(user,message);
+       });
+    });
 </script>
 }
