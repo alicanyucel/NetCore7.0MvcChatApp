@@ -4,7 +4,20 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <button type="button" id="btnSendMessage">Mesaj Gönder</button>
+    <<div class="container">
+        <div class="row">
+            <div class="col-4">
+                <input type="text" class="form-control" id="message" placeholder="mesajı yazınız" /><br/>
+                <input type="text" id="userName" class="form-control" />
+                <br />
+                <button class="btn btn-primary" type="button" id="btnSendMessage">Mesaj Gönder</button>
+            </div>
+            <div class="col-8">
+                <ul class="list-group" id="messages"></ul>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 @section Scripts{
@@ -28,7 +41,10 @@
     start();
     $('#btnSendMessage').click(function() {
         try{
-            connection.invoke("SendMessage","Ali Can","merhaba");
+            var kulaniciAdi=$('#userName').val();
+            var message=$('#message').val();
+            connection.invoke("SendMessage",kullaniciAdi
+            ,message);
         }
         catch(err){
             console.error(err);
@@ -37,6 +53,9 @@
     $().ready(function(){
        connection.on("ReceiveMessage",(user,message)=>{
            console.log(user,message);
+           $('#messages').append(
+               `<li class="list-group-item">${user}:${message}`
+           )
        });
     });
 </script>
