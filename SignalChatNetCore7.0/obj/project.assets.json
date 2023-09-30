@@ -933,11 +933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\NetCore7.0MvcChatApplication\\SignalChatNetCore7.0\\SignalChatNetCore7.0.csproj",
+      "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\NetCore7.0MvcChatAppA\\SignalChatNetCore7.0\\SignalChatNetCore7.0.csproj",
       "projectName": "SignalChatNetCore7.0",
-      "projectPath": "C:\\Users\\Alican\\Source\\Repos\\NetCore7.0MvcChatApplication\\SignalChatNetCore7.0\\SignalChatNetCore7.0.csproj",
+      "projectPath": "C:\\Users\\Alican\\Source\\Repos\\NetCore7.0MvcChatAppA\\SignalChatNetCore7.0\\SignalChatNetCore7.0.csproj",
       "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alican\\Source\\Repos\\NetCore7.0MvcChatApplication\\SignalChatNetCore7.0\\obj\\",
+      "outputPath": "C:\\Users\\Alican\\Source\\Repos\\NetCore7.0MvcChatAppA\\SignalChatNetCore7.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
